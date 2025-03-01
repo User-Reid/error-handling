@@ -1,4 +1,6 @@
+use std::process;
+
 fn main() {
-    let a: i32 = 1;
-    panic!("Something fudged up!");
+    process::exit(0);
+    println!("This will not print.")
 }
